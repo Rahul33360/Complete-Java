@@ -1,0 +1,7 @@
+A class is a blueprint
+    means it has all the structure (like suppose you have to build a house then first we need to create a blueprint for it like for example xyz should be the dimension of the kitchen , there should be 4 room of abc measurment and many more) so lets call them variables and the funcitons.
+
+    And when we build the house or the blueprint structure in real. then it is called a assigning object
+A Object is a instance of the class. (means real presence of the blueprint, like all the values or the methods(function) is initialised.
+
+class take 1byte size
