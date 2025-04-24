@@ -47,8 +47,8 @@ public class overriding_DynamicDispatch {
 
 ____________________________________________________________________________________________________________
 |       Term	             |            Role                                                             |
-|   Overriding	             |     Writing different versions of the same method in child and parent           |
-|   Dynamic dispatch	     |     The mechanism Java uses at runtime to choose the correct method             |
+|   Overriding	             |     Writing different versions of the same method in child and parent       |
+|   Dynamic dispatch	     |     The mechanism Java uses at runtime to choose the correct method         |
 ------------------------------------------------------------------------------------------------------------
 
 */
