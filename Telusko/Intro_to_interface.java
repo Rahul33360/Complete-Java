@@ -53,3 +53,5 @@ public class Intro_to_interface {
 
     }
 }
+
+///     imp -->  for abstract we use extends but for interface we use implements
