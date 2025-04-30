@@ -49,9 +49,10 @@ public class Intro_to_interface {
 //        see no where I have mentioned the final keyword in interface to the variable. but they are by default final
 //        let's try to change them. i know not possible to change the final variable but still. to verify it.
 //        whether they are final by default or not.
-        newCar.name = "My Car"; // error. it says -> Cannot assign a value to final variable 'name
+//        newCar.name = "My Car"; // error. it says -> Cannot assign a value to final variable 'name
 
     }
 }
 
 ///     imp -->  for abstract we use extends but for interface we use implements
+/// interface don't have their memory in heap.So if they don't have their memory then how can you have instantiated.
