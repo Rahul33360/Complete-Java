@@ -22,6 +22,28 @@ public class enums {
             System.out.println(ss +"  "+ ss.ordinal());
         }
 
+//        s = Status.Pending;
+//        s = Status.Failed;
+        s = Status.Sucess;
+
+        switch (s) {
+            case Running :
+                System.out.println("All system Running");
+                break;
+            case Failed:
+                System.out.println("server Failed");
+                break;
+            case Pending:
+                System.out.println("Request Pending");
+                break;
+            case Sucess:
+                System.out.println("Done successfully");
+                break;
+            default:
+                System.out.println("Internal Server Error");
+                break;
+        }
+
 
     }
 }
