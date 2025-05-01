@@ -1,8 +1,9 @@
 //  This symbol inside quotation marks is called as lambda expression " -> "
 //  we use "default" or "static" for any extra methods when we
 //  want to define in a functional interface.
-/// In interface method are by default abstract.
-///  And variables are by default public, static and final
+///     In interface method are by default abstract.
+///     And variables are by default public, static and final
+///     Lambda Expression only work with @Functional interface. if this not present. it won't work.
 
 @FunctionalInterface  // It's an interface that can contains only one abstract method.
 interface A1 {
@@ -14,6 +15,14 @@ interface A2 {
 //    void show(int i);    // take one parameter we can write as many as we want.
     void strShow(int num, String s);
 }
+
+
+@FunctionalInterface
+interface Adding {
+    int addNum (int i, int j);
+}
+
+
 
 public class lamdaExpression {
     public static void main(String[] args) {
@@ -45,8 +54,21 @@ public class lamdaExpression {
             System.out.println("inside A2 anonymous class. And i'm holding " + a + " " + b +" my name");
         };
         obj2.strShow(34,"Rahul");
+        System.out.println();
 
-        
+
+        // let's play with some return keyword.
+//        Adding add = new Adding() {
+//            @Override
+//            public int addNum(int i, int j) {
+//                return i+j;
+//            }
+//        };
+//        System.out.println("Added value " + add.addNum(1,4));
+//        Let's write this in terms of lambda expression
+        Adding add1 = (i,j) -> (i+j);  /// we don't need a return statement here. if it is in one line.
+
+        System.out.println("Added value " + add1.addNum(1,4));
 
 
 
