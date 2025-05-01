@@ -8,6 +8,15 @@
 //  Can only have public, static, and final variables.
 //  an interface is public, final, Static and abstract always (by default).
 
+/*
+    An interface in Java is a blueprint of a class, defining a contract for what a class should do without specifying
+    how it should do it. It consists of abstract methods (methods without a body), constants, default methods,
+    static methods, and nested types. Interfaces cannot be instantiated directly. Classes use the implements keyword
+    to indicate they will provide concrete implementations for the methods defined in the interface.
+*/
+
+/// In interface method are by default abstract.
+///  And variables are by default public, static and final
 
 interface Car {
     void show();
