@@ -20,5 +20,16 @@ public class try_finally {
             System.out.println("Any block of code present in finally block. It will run for sure!! ");
         }
 
+//        try {
+//            j = j/i;    // this will throw error
+//            System.out.println(j);  // here it won't execute.
+//        } finally {
+//            System.out.println("Value of J in finally block : " + j);
+//            System.out.println("Any block of code present in finally block. It will run for sure!! ");
+//        }
+    /*
+        A try and final block also can work together but You must handel the exception using "throws" Keyword.
+                There is difference in "throw"  and  "throws" keyword.
+    */
     }
 }
