@@ -57,9 +57,9 @@ public class Threads_and_all {
 //        we can add try and catch here too
         obj1.start();
         try {
-            Thread.sleep(2);   //   here all the values will be in milliseconds
+            Thread.sleep(5);   //   here all the values will be in milliseconds
         } catch (InterruptedException e) { throw new RuntimeException(e); }
-        
+
         obj2.start();
 
 
