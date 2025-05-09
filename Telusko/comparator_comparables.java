@@ -185,7 +185,8 @@ public class comparator_comparables {
 
 
         // now using comparable, we have created a compare method inside the NewStudent. Which will
-        // sort on basis on age in ascending order.
-        
+        // sort on basis on age in ascending order. This is called as comparable because it is created inside
+        // the class and it is redefined by us. so this is the diff between comparable and comparator.
+
     }
 }
