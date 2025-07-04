@@ -45,9 +45,11 @@ public class increasing_decreasingTriangle {
         ///  right side increasing triangle
         /*
         for(int i=0; i<=n; i++) {
+            // spces
             for(int j=i; j<=n; j++) {
                 System.out.print("  ");
             }
+
             for(int k=1; k<=i; k++)
                 System.out.print(" *");
             System.out.println();

@@ -1,4 +1,3 @@
-/*
 package blocks;
 
 class B {
@@ -14,24 +13,22 @@ class B {
     }
     B(int i,int j) {
         this.i=i;
-        B.j =1;
+        B.j =i;
     }
-
+    static {
+        j=40;
+    }
+    static {
+        j=50;
+    }
 }
 
 public class static_NonStatice {
     public static void main(String[] args) {
         System.out.println("main starts");
-        System.out.println(j);
+        System.out.println(B.j);
         B b = new B(100,200);
         System.out.println(b.i +" \t" + b.j);
         System.out.println("main ends");
     }
 }
-
-static {
-    j=40;
-}
-static {
-    j=50;
-}*/
